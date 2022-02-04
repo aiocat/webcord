@@ -10,6 +10,10 @@ Make your discord web colorful!
 - Click "Load Unpacked" and select the folder
 - Enable webcord
 
+## Screenshot
+
+![UI](https://i.imgur.com/mPccJfS.png)
+
 ## Usage
 
 Find a theme (or make yourself) and put the css code to textarea. Click "inject" and refresh.
