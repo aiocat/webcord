@@ -20,11 +20,19 @@ document.getElementById("from-file").onclick = async () => {
         reader.readAsText(file, "UTF-8");
 
         reader.onload = (readerEvent) => {
-            chrome.storage.sync.set({ "WEBCORD_CSS": readerEvent.target.result }, function () { });
-            document.getElementById("css-box").value = readerEvent.target.result;
-            alert("Reload the Page!")
+            chrome.storage.sync.set({ "WEBCORD_CSS": readerEvent.target.result }, function () {
+                document.getElementById("css-box").value = readerEvent.target.result;
+                alert("Reload the Page!")
+            });
         };
     };
 
     input.click();
+};
+
+document.getElementById("reset").onclick = async () => {
+    chrome.storage.sync.set({ "WEBCORD_CSS": "" }, function () {
+        document.getElementById("css-box").value = "";
+        alert("Reload the Page!")
+    });
 };
