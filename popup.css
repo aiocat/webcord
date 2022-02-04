@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #000309;
+  text-align: center;
+}
+
+.router {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  backdrop-filter: blur(10px);
+}
+
+.router a {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px;
+  transition: 500ms;
+  color: #ddd;
+}
+
+.router a:hover {
+  color: #fff;
+}
+
+.head {
+  background: url(background.png);
+  text-align: center;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+  z-index: -1;
+  padding-bottom: 30px;
+}
+
+.head h1 {
+  color: #fff;
+  margin: 30px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.head p {
+  color: #eee;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.btn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #000309;
+  font-weight: 400;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  border-radius: 1000px;
+  transition: 500ms;
+}
+
+.btn:hover {
+  background-color: #000309;
+  color: #fff;
+  cursor: pointer;
+}
+
+#css-box {
+    background-color: #000309;
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    outline: none;
+    border: 1px solid #29292b;
+    margin: 10px;
+    margin-bottom: 0px;
+    width: 500px;
+    resize: none;
+}
