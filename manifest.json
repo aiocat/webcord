@@ -1,7 +1,7 @@
 {
   "name": "webcord",
   "description": "Theme loader for web discord client.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -14,7 +14,10 @@
       "js": ["content.js"]
     }
   ],
-  "permissions": ["storage", "tabs"],
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
   "browser_action": {
     "default_popup": "popup.html",
     "default_title": "Webcord"

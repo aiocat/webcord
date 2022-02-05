@@ -24,6 +24,19 @@ If you want to reset theme, click "reset" button.
 
 - [BetterDiscord Themes](https://betterdiscord.app/themes)
 
+## NOT Frequently Asked Questions
+
+- Can i get banned because of this?
+
+  - No.
+
+- How can i trust this?
+
+  - It's open source dumbass.
+
+- Why not in the extension store?
+  - I'm poor.
+
 ## License
 
 Webcord is distributed under MIT license. for more information:
