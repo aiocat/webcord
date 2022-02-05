@@ -2,6 +2,10 @@
 
 Make your discord web colorful!
 
+## Privacy Remind
+
+If the source is bigger than 4000 byte, it will send the source to the `https://www.toptal.com/developers/cssminifier/raw` for minify.
+
 ## Setup
 
 - Clone/download the repo
