@@ -9,7 +9,9 @@
         "https://discord.com/channels/*",
         "https://canary.discord.com/channels/*",
         "https://discord.com/app*",
-        "https://canary.discord.com/app*"
+        "https://canary.discord.com/app*",
+        "https://discord.com/login*",
+        "https://canary.discord.com/login*"
       ],
       "js": ["content.js"]
     }
