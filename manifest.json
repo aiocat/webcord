@@ -19,7 +19,8 @@
   "permissions": [
     "storage",
     "tabs",
-    "unlimitedStorage"
+    "unlimitedStorage",
+    "https://www.toptal.com/developers/cssminifier/raw"
   ],
   "browser_action": {
     "default_popup": "popup.html",
